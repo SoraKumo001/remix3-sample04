@@ -6,7 +6,6 @@ if (document.body) {
   window.addEventListener(
     "load",
     () => {
-      console.log(document.body.innerHTML);
       createRoot(document.body).render(<App />);
     },
     { once: true }
